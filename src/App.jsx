@@ -4,6 +4,8 @@ import EducationTile from "./section-components/educationTile";
 import SkillTile from "./section-components/skillTile";
 import AboutMe from "./section-components/aboutMe";
 import ProjectInfo from "./section-components/projectInfo";
+import Education from "./section-components/education";
+import Works from "./section-components/works";
 
 
 function App() {
@@ -20,8 +22,13 @@ function App() {
     },
 
     {
-      path: "/education",
+      path: "/edu-data",
       element: <EducationTile />
+    },
+
+    {
+      path: "/education",
+      element: <Education />
     },
 
     {
@@ -35,9 +42,15 @@ function App() {
     },
 
     {
-      path: "/projects",
+      path: "/project-data",
       element: <ProjectInfo />
     },
+
+    {
+      path: "/projects",
+      element: <Works />
+    },
+
   ]);
 
 

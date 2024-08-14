@@ -9,9 +9,9 @@ const AboutMe = () => {
 
     return (
 
-        <div className="text-family relative h-screen w-full flex items-center justify-center pt-[3rem]">
+        <div className="text-family about-bgtext relative h-screen w-full flex items-center justify-center overflow-hidden">
 
-            <div className="vertical-upright kumar coin">About Me</div>
+            {/* <div className="vertical-upright kumar coin">About Me</div> */}
 
             <nav className="absolute top-0 w-full flex justify-between items-center py-[2.5rem] px-[5rem]">
 
@@ -22,18 +22,17 @@ const AboutMe = () => {
                     <Link className="nav-link" to={"/home"}>Home</Link>
                     <Link className="text-blue-700">About</Link>
                     <Link className="nav-link" to={"/skills"}>Skills</Link>
-                    <Link className="nav-link" to={""}>Education</Link>
-                    <Link className="nav-link" to={""}>Projects</Link>
-                    <Link className="nav-link" to={""}>Volunteering</Link>
+                    <Link className="nav-link" to={"/education"}>Education</Link>
+                    <Link className="nav-link" to={"/projects"}>Projects</Link>
 
                 </div>
 
             </nav>
 
 
-            <div className="flex w-[65%]">
+            <div className="flex w-[65%] pt-[3rem]">
 
-                <div className="flex-[72%] px-[3rem] flex flex-col justify-between" style={{fontFamily: 'Chakra Petch'}}>
+                <div className="flex-[72%] pr-[3rem] flex flex-col justify-between" style={{fontFamily: 'Chakra Petch'}}>
 
                     <p className="text-justify">My name is <span style={{ color: "slateblue" }}>Theophilus Boateng</span>, a budding Frontend-focused Web Developer who is passionate about building the Frontend of Websites and Web Applications. Though I completed a Bachelor of Science in Computer Science at the University of Ghana in 2021, I started training as Frontend Developer in June 2024. Consequently, I do not have many projects to showcase on my website yet. Presently, I am looking for opportunities to hone my front-end skills, build a solid portfolio and ultimately pave a career path in full-stack web development. I am seeking an opportunity in any organisation where I will have the room to learn, grow, and be the best version of myself.</p>
 

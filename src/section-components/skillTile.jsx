@@ -23,9 +23,8 @@ const SkillTile = () => {
                     <Link className="nav-link" to={"/home"}>Home</Link>
                     <Link className="nav-link" to={"/about"}>About</Link>
                     <Link className="text-blue-700">Skills</Link>
-                    <Link className="nav-link" to={""}>Education</Link>
-                    <Link className="nav-link" to={""}>Projects</Link>
-                    <Link className="nav-link" to={""}>Volunteering</Link>
+                    <Link className="nav-link" to={"/education"}>Education</Link>
+                    <Link className="nav-link" to={"/projects"}>Projects</Link>
 
                 </div>
 
