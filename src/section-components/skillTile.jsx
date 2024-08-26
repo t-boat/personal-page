@@ -18,7 +18,7 @@ const SkillTile = () => {
 
                 <a
                     download
-                    href="/src/assets/files/Theophilus-Boateng-CV.pdf"
+                    href="/src/assets/files/TheophilusBoatengCV.pdf"
                     className='flex gap-2 w-max rounded px-3 py-[0.35rem] text-[#04131F] font-bold border-2 border-[#04131F]'
                     style={{ fontFamily: 'Allerta Stencil' }}>
                     <Download /> Resume
