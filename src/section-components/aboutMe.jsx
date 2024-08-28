@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import theoPic from "../assets/Theo.jpg";
-import { Download, Mail, MapPin, MapPinned, Phone } from "lucide-react";
+import { Download, Mail, MapPin, Phone } from "lucide-react";
 import { Github, Linkedin, X } from "lucide-react";
 
 
