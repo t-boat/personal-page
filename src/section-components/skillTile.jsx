@@ -20,9 +20,8 @@ const SkillTile = () => {
                     download
                     href="/files/TheophilusBoatengCV.pdf" alt="alt text" target="_blank" rel="noopener noreferrer"
                     className='flex gap-2 w-max rounded px-3 py-[0.35rem] text-[#04131F] font-bold border-2 border-[#04131F]'
-                    style={{ fontFamily: 'Allerta Stencil' }}>
-                    <Download /> Resume
-                </a>
+                    style={{ fontFamily: 'Allerta Stencil' }}
+                > <Download /> Resume </a>
 
                 <div className="w-[40%] flex justify-between font-semibold text-[#04131F]" style={{ fontFamily: 'Allerta Stencil' }}>
 

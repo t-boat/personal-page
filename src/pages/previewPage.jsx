@@ -35,7 +35,7 @@ const PreviewPage = () => {
 
             <div className="absolute">
 
-                <div className="text-3d text-center text-[2.5rem]">I'm</div>
+                <div className="text-left" >I'm</div>
 
                 <div className="text-3d sea-saw text-[4.5em] pb-[1.5rem]" style={{ fontFamily: 'Ubuntu Mono' }}>Theophilus Boateng</div>
 
@@ -49,7 +49,7 @@ const PreviewPage = () => {
                     <span class="c-rainbow__layer c-rainbow__layer--yellow">Theophilus Boateng</span>
                 </div> */}
 
-                {/* <div className="text-right">A Junior Frontend Developer</div> */}
+                <div className="text-right">A Junior Frontend Developer</div>
 
             </div>
 
