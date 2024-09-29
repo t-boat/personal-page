@@ -1,6 +1,5 @@
 import { Download } from "lucide-react";
 import { Link } from "react-router-dom";
-import { TypeAnimation } from "react-type-animation";
 
 
 
@@ -13,8 +12,7 @@ const PreviewPage = () => {
             <nav className="absolute top-0 w-full flex justify-between items-center py-[2.5rem] px-[5rem]">
 
                 <a
-                    download
-                    href="/files/TheophilusBoatengCV.pdf" alt="alt text" target="_blank" rel="noopener noreferrer"
+                    href="/files/TheoBoatengCV.pdf" alt="alt text" target="_blank" rel="noopener noreferrer" download
                     className='flex gap-2 w-max rounded px-3 py-[0.35rem] text-[#04131F] font-bold border-2 border-[#04131F]'
                     style={{ fontFamily: 'Allerta Stencil' }}>
                     <Download /> Resume
