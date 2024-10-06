@@ -103,7 +103,7 @@ const SkillTile = () => {
 
                     <a
                         href="/files/TheoBoatengCV.pdf" alt="alt text" target="_blank" rel="noopener noreferrer" download
-                        className='w-max rounded px-2 py-[0.35rem] border-2 border-blue-700 hover:bg-blue-700 absolute top-4 left-4'
+                        className='w-max rounded px-2 py-[0.35rem] border-2 border-blue-700 hover:bg-blue-700 hover:text-white absolute top-4 left-4'
                     >
                         Resume
                     </a>
