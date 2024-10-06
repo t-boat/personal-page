@@ -1,39 +1,22 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PreviewPage from "./pages/previewPage";
+import AboutMe from "./pages/aboutMe";
+import SkillTile from "./pages/skillTile";
+import Education from "./pages/education";
+import Works from "./pages/works";
 import EducationTile from "./section-components/educationTile";
-import SkillTile from "./section-components/skillTile";
-import AboutMe from "./section-components/aboutMe";
 import ProjectInfo from "./section-components/projectInfo";
-import Education from "./section-components/education";
-import Works from "./section-components/works";
+import ExperienceTile from "./section-components/experienceTile";
+import MyDropdownMenu from "./section-components/myDropdownMenu";
 
 
 function App() {
 
   const router = createBrowserRouter([
+
     {
       path: "/",
       element: <PreviewPage />
-    },
-
-    {
-      path: "/home",
-      element: <PreviewPage />
-    },
-
-    {
-      path: "/edu-data",
-      element: <EducationTile />
-    },
-
-    {
-      path: "/education",
-      element: <Education />
-    },
-
-    {
-      path: "/skills",
-      element: <SkillTile />
     },
 
     {
@@ -42,13 +25,38 @@ function App() {
     },
 
     {
-      path: "/project-data",
-      element: <ProjectInfo />
+      path: "/skills",
+      element: <SkillTile />
+    },
+
+    {
+      path: "/education",
+      element: <Education />
     },
 
     {
       path: "/projects",
       element: <Works />
+    },
+    
+    {
+      path: "/drop-down",
+      element: <MyDropdownMenu />
+    },
+    
+    {
+      path: "/edu-data",
+      element: <EducationTile />
+    },
+    
+    {
+      path: "/project-data",
+      element: <ProjectInfo />
+    },
+
+    {
+      path: "/experience",
+      element: <ExperienceTile />
     },
 
   ]);

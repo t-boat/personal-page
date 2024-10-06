@@ -4,6 +4,7 @@ import { Building2Icon } from "lucide-react";
 
 
 const ExperienceTile = ({companyName, role, responsibilities, startDate, endDate, }) => {
+    
     return (
 
         <div className="flex gap-x-[1.5rem]">
