@@ -16,11 +16,11 @@ const Works = () => {
 
                 <div className="under-construction w-full h-screen">
 
-                    <div className="text-[5em] neons flex flex-col">
+                    <div className="neons flex flex-col">
 
-                        <p>Page under construction</p>
+                        <p className="text-[3.75rem]">Page under construction</p>
 
-                        <p className="text-[3rem]">kindly check back later</p>
+                        <p className="text-[32px]">kindly check back later</p>
 
                     </div>
 
@@ -32,11 +32,11 @@ const Works = () => {
 
                 <div className="under-construction w-full h-screen">
 
-                    <div className="text-[3.5em] neons flex flex-col">
+                    <div className="neons flex flex-col">
 
-                        <p>Page under construction</p>
+                        <p className="text-[2.25rem]">Page under construction</p>
 
-                        <p className="text-[1.8rem]">kindly check back later</p>
+                        <p className="text-[18px]">kindly check back later</p>
 
                     </div>
 
